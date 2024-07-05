@@ -1,0 +1,155 @@
+/* Center the section horizontally and vertically */
+.login-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.max-w-sm {
+  max-width: 600px; /* Adjust width as per your requirement */
+}
+
+.text-center {
+  text-align: center; /* Center align text */
+}
+/* Increase space between flex items on medium and larger screens */
+@media screen and (min-width: 768px) {
+  .login-screen {
+    gap: 3rem; /* Adjust the gap as needed */
+  }
+}
+
+/* Style the image */
+.max-w-sm img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style the buttons */
+.btn-login {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* Ensure rounded shape */
+  font-size: 0.900rem; /* Adjust font size as needed */
+  line-height: 1.50; /* Adjust line height as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Add a subtle lift on hover */
+}
+
+/* Style the inputs */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style the links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+/* Center the section horizontally and vertically */
+.login-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.max-w-sm {
+  max-width: 600px; /* Adjust width as per your requirement */
+}
+
+.text-center {
+  text-align: center; /* Center align text */
+}
+/* Increase space between flex items on medium and larger screens */
+@media screen and (min-width: 768px) {
+  .login-screen {
+    gap: 3rem; /* Adjust the gap as needed */
+  }
+}
+
+/* Style the image */
+.max-w-sm img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style the buttons */
+.btn-login {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* Ensure rounded shape */
+  font-size: 0.900rem; /* Adjust font size as needed */
+  line-height: 1.50; /* Adjust line height as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Add a subtle lift on hover */
+}
+
+/* Style the inputs */
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Style the links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #0056b3;
+}
